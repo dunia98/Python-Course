@@ -1,0 +1,72 @@
+1)Fibonacci numbers module:
+(used for series)
+
+
+ 
+  import fibo as fib
+ 
+  fib.fib(500)
+  
+  0 1 1 2 3 5 8 13 21 34 55 89 144 233 377
+  
+ 
+
+ 
+2) symPy: can do algebraic evaluation, differentiation, expansion, complex numbers, etc. It is contained in a pure Python distribution.
+
+ 
+ from sympy import *
+  
+ a = Rational(1,2)
+  
+ a
+  
+ 1/2
+
+  
+ a*2
+  
+ 1
+
+
+
+
+
+
+3) SciPy: When we talk about NumPy then we have to talk about scipy. 
+ It is a library of algorithms and mathematical tools for python and has caused many scientists to switch from ruby to python.
+
+ 
+
+  from scipy import special, optimize
+
+  
+  f = lambda x: -special.jv(3, x)
+
+ 
+  sol = optimize.minimize(f, 1.0)
+  
+  x = linspace(0, 10, 5000)
+
+
+
+
+ 
+
+4) Pygame: Which developer does not like to play games and develop them ? This library will help you achieve your goal of 2d game development.
+
+ 
+
+import pygame
+ from pygame.locals import 
+
+
+
+
+
+
+5) pyGtk: Another python GUI library. It is the same library in which the famous Bittorrent client is created.
+
+  
+
+from gtk import _gtk 
